@@ -1,9 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import PageNav from '../PageNav/PageNav';
+import styles from './MainLayout.scss';
 
 const MainLayout = ({children}) => (
-  <div>
+  <div className={styles.component}>
     <main>
     <PageNav />
       {children}
