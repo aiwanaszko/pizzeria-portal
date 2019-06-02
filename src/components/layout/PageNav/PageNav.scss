@@ -1,0 +1,16 @@
+@import '../../../styles/settings.scss';
+
+.component {
+  padding: $base-size;
+  color: red;
+
+  a {
+    margin-right: 200px;
+    padding-bottom: ($base-size / 2);
+    }
+}
+
+
+.link {
+  margin-right: 200px;
+}
