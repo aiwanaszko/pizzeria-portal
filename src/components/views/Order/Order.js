@@ -1,11 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import styles from './Login.scss';
+import styles from './Order.scss';
 
-const Login = () => (
+const Order = () => (
   <div className={styles.component}>
-    <h2>Login view</h2>
+    <h2>Order view</h2>
   </div>
 );
 
-export default Login;
+export default Order;
