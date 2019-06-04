@@ -54,7 +54,10 @@ const useStyles = makeStyles(theme => ({
   },
   ready: {
     background: '#e0e0e0',
-  }
+  },
+  link: {
+    color: '#ad1457',
+  },
 }));
 
 function TabContainer(props) {
