@@ -1,9 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import styles from './Kitchen.scss';
+import './Kitchen.scss';
 
 const Kitchen = () => (
-  <div className={styles.component}>
+  <div className='component'>
     <h2>Kitchen view</h2>
   </div>
 );

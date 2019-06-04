@@ -1,9 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import styles from './Order.scss';
+import './Order.scss';
 
 const Order = () => (
-  <div className={styles.component}>
+  <div className='component'>
     <h2>Order view</h2>
   </div>
 );
